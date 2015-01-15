@@ -8,6 +8,7 @@ msg3 = (("line 3/3: "))
 
 file = open("email.txt", "a")
 file.write(msg1 + "\n" + msg2 + "\n" + msg3)
+file.close()
 
 from email.mime.text import MIMEText
 
